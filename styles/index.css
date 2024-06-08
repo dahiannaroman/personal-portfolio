@@ -3,12 +3,13 @@ body {
    height: 852px;
    margin: 0;
    overflow-x: hidden;
+   background-color:#decce6;
 }
 
 header {
     width: 100%;
     height: 300px;
-    background-color: aquamarine;
+    background-color: #b28ac2;
 }
 
 .profile-photo{
@@ -17,6 +18,7 @@ header {
     border-radius: 10%;
     margin: 10px;
     margin-top: 40px;
+    border: 3px solid #000;
     
 }
 
@@ -67,16 +69,17 @@ h1{
  /* proyecto 1 */
  .container-projects1{
     width: 80%;
-    background-color: coral;
+    background-color: #a75ebf;
     height: 150px;
     margin: 30px;
     border: 2px solid black;
  }
 
  .container-projects1 > img {
-    width: 145px;
+    width: 140px;
     height: 150px;
     object-fit: cover;
+
  }
 
  .container-projects1 > h3 {
@@ -98,7 +101,7 @@ h1{
  /* proyecto 2 */
  .container-projects2{
     width: 80%;
-    background-color: coral;
+    background-color: #a75ebf;
     height: 150px;
     margin: 30px;
     border: 2px solid black;
@@ -129,7 +132,7 @@ h1{
  /* proyecto 3 */
  .container-projects3{
    width: 80%;
-   background-color: coral;
+   background-color:#a75ebf;
    height: 150px;
    margin: 30px;
    border: 2px solid black;
@@ -160,7 +163,7 @@ h1{
 /* proyecto 4 */
 .container-projects4{
    width: 80%;
-   background-color: coral;
+   background-color: #a75ebf;
    height: 150px;
    margin: 30px;
    border: 2px solid black;
@@ -189,7 +192,36 @@ h1{
    margin-top: -7px;
 }
 .hr-style {
-   background-color: rgb(224, 13, 94);
+   background-color: rgb(12, 6, 8);
    height: 2px;
+   box-shadow: 0 4px 8px #904ba5; 
+   
+}
+
+/*referencias*/
+.container-references{
+   width: 80%;
+   background-color: #a75ebf;
+   height: 150px;
+   margin: 30px;
+   border: 2px solid black;
+}
+
+.container-references > img {
+   width: 140px;
+   height: 150px;
+   object-fit: cover;
+}
+
+.container-references > h3 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+   text-align: center;
+}
+
+.container-references > p {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+   max-width: 150px;
    
 }
