@@ -8,7 +8,7 @@ body {
 
 header {
     width: 100%;
-    height: 300px;
+    height: 310px;
     background-color: #b28ac2;
 }
 
@@ -224,4 +224,37 @@ h1{
    font-size: 15px;
    max-width: 150px;
    
+}
+/*experiencias*/
+.progress {
+   width: 100px; 
+   height: 20px; 
+   background-color: #f0f0f0; 
+   border-radius: 10px; 
+}
+
+.bar {
+   width: 0; 
+   height: 100%; 
+   background-color: #4caf50; 
+}
+
+.container-experiences1 {
+   display: flex;
+   width: 100%;
+   height: 100px;
+   background-color: blue;
+   
+}
+
+.container-experiences2 {
+   display: flex;
+   width: 100%;
+   height: 100px;
+   background-color: rgb(51, 255, 0);
+   
+}
+
+.container-experiences2 > img {
+   width: 30%;
 }
