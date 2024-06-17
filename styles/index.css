@@ -174,12 +174,6 @@ h1{
    border: 2px solid black;
 }
 
-.container-references > img {
-   width: 140px;
-   height: 150px;
-   object-fit: cover;
-}
-
 .container-references > h3 {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 15px;
@@ -193,33 +187,41 @@ h1{
    
 }
 /*experiencias*/
-.progress {
-   width: 100px; 
-   height: 20px; 
-   background-color: #f0f0f0; 
-   border-radius: 10px; 
-}
-
-.bar {
-   width: 0; 
-   height: 100%; 
-   background-color: #4caf50; 
-}
-
-.container-experiences1 {
-   display: flex;
-   width: 100%;
-   height: 85px;
-   gap: 70px;
-}
-
+.container-experiences1,
 .container-experiences2 {
-   display: flex;
-   width: 100%;
-   height: 85px;
-   
-   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 10px;
 }
+
+.experience {
+    text-align: center;
+}
+.experience > img {
+   width: 70px;
+   height: 80px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #0c0c0c;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.progress-bar::-webkit-progress-value {
+   background-color: #bb67d0;
+   border-radius: 100px;
+}
+
+progress::-webkit-progress-bar {
+   background-color: #f0f0f0; /* Color de fondo del progress */
+   border-radius: 100px; /* Borde redondeado */
+}
+
+
 
 .btn-project{
     padding: 5px 15px;
@@ -238,7 +240,7 @@ h1{
 .hr-style {
    background-color: rgb(12, 6, 8);
    height: 2px;
-   box-shadow: 0 4px 8px #904ba5; 
+   box-shadow: 0 4px 8px #a262b6; 
    
 }
 
@@ -262,7 +264,7 @@ footer {
  }
 
 
-/*Tamaños de pantalla*/
+/*Tamaños de pantalla 480 x 1040*/
 @media screen and (min-width: 480px) and (max-width: 1040px){
    header{
       width: 100vw;
@@ -292,6 +294,13 @@ footer {
       flex-direction: column;
       position: relative;
       left: 40px;
+   }
+
+   h2{
+      text-align: center;
+      position: relative;
+      left: 30px;
+      
    }
 /*info personal*/
   .container-info{
@@ -326,6 +335,49 @@ footer {
    font-size: 20px;
    margin-left: 25px;
   }
+
+  .hr-style{
+   width: 490px;
+  }
+
+  /*referencias*/
+  .container-references{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   left: 40px;
+  }
+
+  .container-references > h3 {
+   font-size: 18px;
+  }
+
+  .container-references > p {
+   margin-top: -5px;
+  }
+
+  /*experiencias*/
+  .container-experiences1,
+.container-experiences2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 22px;
+    position: relative;
+    left: 40px;
+}
+
+/*footer*/
+.navbar-social-networks {
+   position: relative;
+   left: 10rem;
+ }
+
+
+}
+
+/*tamaños de pantalla 430 x 932*/
+@media screen and (min-width: 430px) and (max-width: 932px){
    
 }
    
