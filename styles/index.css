@@ -247,6 +247,8 @@ progress::-webkit-progress-bar {
 footer {
    background-color:#884ea2;
    color: white;
+   
+   
 }
 
 .navbar-social-networks {
@@ -258,10 +260,12 @@ footer {
    position: relative;
    left: 7rem;
  }
+
+
+
  
- .navbar-social-networks > li > a {
-   color: #fff;
- }
+ 
+ 
 
 
 /*Tamaños de pantalla 480 x 1040*/
@@ -395,21 +399,20 @@ footer {
       flex-direction: column;
       position: relative;
       left: 110px;
-      width: 550px;
-      height: 250px;
-   
+      width: 590px;
+      height: 280px;
    }
 
    .container-projects1 > img {
       width: 270px;
-      height: 250px;
+      height: 280px;
    }
 
    .container-projects1 > h3 {
       font-size: 25px;
       position: relative;
-      left: 350px;
-      margin-top: -240px;
+      left: 370px;
+      margin-top: -270px;
    }
 
    .container-projects1 > p {
@@ -425,20 +428,20 @@ footer {
       flex-direction: column;
       position: relative;
       left: 110px;
-      width: 550px;
-      height: 250px;
+      width: 590px;
+      height: 280px;
    }
 
    .container-projects2 > img {
       width: 270px;
-      height: 250px;
+      height: 280px;
    }
 
    .container-projects2 > h3 {
       font-size: 25px;
       position: relative;
-      left: 350px;
-      margin-top: -240px;
+      left: 370px;
+      margin-top: -270px;
    }
 
    .container-projects2 > p {
@@ -453,22 +456,22 @@ footer {
       flex-direction: column;
       position: relative;
       left: 110px;
-      width: 550px;
-      height: 250px;
+      width: 590px;
+      height: 280px;
       
      
    }
 
    .container-projects3 > img {
       width: 270px;
-      height: 250px;
+      height: 280px;
    }
 
    .container-projects3 > h3 {
       font-size: 25px;
       position: relative;
-      left: 350px;
-      margin-top: -240px;
+      left: 370px;
+      margin-top: -270px;
    }
 
    .container-projects3 > p {
@@ -476,17 +479,17 @@ footer {
       position: relative;
       left: 280px;
       margin-top: -20px;
-      width: 260px;
-      background-color: #fff;
+    
+      
    }
 
    
 
    .btn-project{
-      padding: 10px 35px;
+      padding: 7px 25px;
       font-size: 18px;
-      left: 450px;
-      margin-top: -70px;
+      left: 500px;
+      
   }
 
 
@@ -539,7 +542,7 @@ footer {
   }
 
   .hr-style{
-   width: 800px;
+   width: 820px;
   }
 
   /*referencias*/
@@ -548,7 +551,7 @@ footer {
       flex-direction: column;
       position: relative;
       left: 110px;
-      width: 550px;
+      width: 570px;
       height: 250px;
   }
 
@@ -569,6 +572,8 @@ footer {
     gap: 80px;
     width: 700px;
     height: 200px;
+    position: relative;
+    left: 70px;
 }
 
 .experience > img {
@@ -576,30 +581,24 @@ footer {
    height: 125px;
 }
 
-.progress-bar {
-   width: 40px;
-   height: 25px;
-   border: 2px solid #0c0c0c;
-   margin-top: 10px;
-   border-radius: 100px;
-}
-
-.progress-bar::-webkit-progress-value {
-  background-color: #bb67d0;
-  border-radius: 100px;
-}
-
-progress::-webkit-progress-bar {
-  background-color: #f0f0f0; /* Color de fondo del progress */
-  border-radius: 100px; /* Borde redondeado */
-}
-
-
-
-
 /*footer*/
 .navbar-social-networks {
    position: relative;
-   left: 10rem;
+   left: 250px;
  }
+
+ .navbar-social-networks img {
+   width: 50px; 
+   height: 50px; 
+   object-fit: cover;
+}
+   
+}
+
+/*tamaños de pantalla 1559 x 975*/
+@media screen and (max-width: 1159px) and (min-width: 975px) {
+  
+  h1 {
+   font-size: 50px;
+  }
 }
